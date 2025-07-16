@@ -1,6 +1,8 @@
 package dev.vanderloureiro
 package dependencyinjection
 
+import dev.vanderloureiro.dependencyinjection.adapters.{GetUserLive, UserRepositoryLive}
+import dev.vanderloureiro.dependencyinjection.ports.{GetUser, UserRepository}
 import zio.ZLayer
 
 object Environment {

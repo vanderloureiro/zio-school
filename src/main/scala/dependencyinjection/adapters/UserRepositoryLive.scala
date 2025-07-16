@@ -1,5 +1,8 @@
 package dev.vanderloureiro
-package dependencyinjection
+package dependencyinjection.adapters
+
+import dependencyinjection.User
+import dependencyinjection.ports.UserRepository
 
 import zio.{ULayer, ZIO, ZLayer}
 

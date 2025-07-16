@@ -1,5 +1,7 @@
 package dev.vanderloureiro
-package dependencyinjection
+package dependencyinjection.ports
+
+import dependencyinjection.User
 
 import zio.{IO, ZIO}
 
